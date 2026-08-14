@@ -30,24 +30,11 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto w-full max-w-6xl px-5 sm:px-6">
         <div className="max-w-3xl">
-          <motion.span
-            initial={reduce ? {} : { opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-sm text-muted-foreground backdrop-blur-sm"
-          >
-            <span className="relative flex size-2">
-              <span className="absolute inline-flex size-full animate-ping rounded-full bg-emerald-500 opacity-75" />
-              <span className="relative inline-flex size-2 rounded-full bg-emerald-500" />
-            </span>
-            Available for opportunities
-          </motion.span>
-
           <motion.h1
             initial={reduce ? {} : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, delay: 0.05 }}
-            className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight sm:text-6xl"
+            className="mt-14 text-4xl font-bold leading-[1.1] tracking-tight sm:mt-6 sm:text-6xl"
           >
             {profile.name.replace("Md. ", "")}
           </motion.h1>
@@ -100,7 +87,7 @@ export function Hero() {
               </a>
             </Button>
 
-            <div className="ml-1 flex items-center gap-1">
+            <div className="ml-1 flex items-center gap-2">
               <Button variant="ghost" size="icon" asChild aria-label="GitHub">
                 <a
                   href={profile.socials.github}
@@ -131,7 +118,7 @@ export function Hero() {
             initial={reduce ? {} : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, delay: 0.38 }}
-            className="mt-14 grid grid-cols-2 gap-4 sm:grid-cols-4"
+            className="mt-10 grid grid-cols-2 gap-3 sm:mt-14 sm:gap-4 sm:grid-cols-4"
           >
             {stats.map((s) => (
               <div

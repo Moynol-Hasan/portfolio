@@ -16,14 +16,14 @@ export function Experience() {
         {/* timeline line */}
         <div
           aria-hidden
-          className="absolute left-4 top-2 bottom-2 w-px bg-brand/30 md:left-5"
+          className="absolute left-5 top-2 bottom-2 hidden w-px bg-brand/30 lg:block"
         />
 
         <div className="space-y-8">
           {experience.map((job, i) => (
             <Reveal key={job.company} delay={i * 0.05}>
-              <div className="relative pl-12 md:pl-16">
-                <span className="absolute left-0 top-1 grid size-8 place-items-center rounded-full border border-brand/40 bg-card text-brand md:size-10">
+              <div className="relative lg:pl-16">
+                <span className="absolute left-0 top-1 hidden size-10 place-items-center rounded-full border border-brand/40 bg-card text-brand lg:grid">
                   <Briefcase className="size-4" />
                 </span>
 
