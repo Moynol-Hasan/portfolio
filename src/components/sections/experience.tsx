@@ -16,7 +16,7 @@ export function Experience() {
         {/* timeline line */}
         <div
           aria-hidden
-          className="absolute left-4 top-2 bottom-2 w-px bg-gradient-to-b from-brand via-brand-accent/50 to-transparent md:left-5"
+          className="absolute left-4 top-2 bottom-2 w-px bg-brand/30 md:left-5"
         />
 
         <div className="space-y-8">

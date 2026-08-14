@@ -9,7 +9,7 @@ export function Competitive() {
     <Section
       id="competitive"
       eyebrow="05 / Competitive Programming"
-      title="Algorithms & achievements"
+      title="Competitive programming and achievements"
       description="2000+ problems solved across major platforms, with a record of contest placements."
     >
       <Stagger className="grid gap-4 sm:grid-cols-3">

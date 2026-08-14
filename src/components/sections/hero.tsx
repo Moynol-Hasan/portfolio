@@ -28,7 +28,7 @@ export function Hero() {
         className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background"
       />
 
-      <div className="mx-auto w-full max-w-6xl px-5 sm:px-6">
+      <div className="relative z-10 mx-auto w-full max-w-6xl px-5 sm:px-6">
         <div className="max-w-3xl">
           <motion.span
             initial={reduce ? {} : { opacity: 0, y: 16 }}

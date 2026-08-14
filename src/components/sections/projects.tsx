@@ -28,10 +28,10 @@ export function Projects() {
             <StaggerChild key={p.name}>
               <CardTag {...linkProps} className="block h-full">
                 <Card className="group relative h-full overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-brand/40 hover:shadow-xl hover:shadow-brand/5">
-                  {/* hover gradient accent */}
+                  {/* hover accent */}
                   <div
                     aria-hidden
-                    className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-brand to-brand-accent transition-transform duration-300 group-hover:scale-x-100"
+                    className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-brand transition-transform duration-300 group-hover:scale-x-100"
                   />
                   <CardContent className="flex h-full flex-col p-6">
                     <div className="mb-4 flex items-start justify-between">

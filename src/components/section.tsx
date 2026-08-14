@@ -27,7 +27,7 @@ export function Section({
         className
       )}
     >
-      <Reveal className="mb-12 max-w-2xl">
+      <Reveal className="mb-12 max-w-4xl">
         {eyebrow && (
           <p className="mb-3 font-mono text-sm font-medium tracking-wide text-brand-accent">
             {eyebrow}

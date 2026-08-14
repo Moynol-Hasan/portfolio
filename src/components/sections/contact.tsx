@@ -39,11 +39,11 @@ export function Contact() {
         <div className="relative overflow-hidden rounded-2xl border border-border bg-card p-8 sm:p-12">
           <div
             aria-hidden
-            className="pointer-events-none absolute -right-16 -top-16 size-64 rounded-full bg-brand/15 blur-[100px]"
+            className="pointer-events-none absolute -right-16 -top-16 size-64 rounded-full bg-brand/20 blur-[100px]"
           />
           <div
             aria-hidden
-            className="pointer-events-none absolute -bottom-16 -left-16 size-64 rounded-full bg-brand-accent/10 blur-[100px]"
+            className="pointer-events-none absolute -bottom-16 -left-16 size-64 rounded-full bg-brand-accent/15 blur-[100px]"
           />
 
           <div className="relative">

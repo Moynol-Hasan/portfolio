@@ -30,6 +30,7 @@
 
   --brand: #6366f1;
   --brand-accent: #8b5cf6;
+  --brand-solid: #4f46e5;
 
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
@@ -63,6 +64,7 @@
 
   --brand: #818cf8;
   --brand-accent: #a78bfa;
+  --brand-solid: #6366f1;
 
   --destructive: #ef4444;
   --destructive-foreground: #f5f5fa;
@@ -90,6 +92,7 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-brand: var(--brand);
   --color-brand-accent: var(--brand-accent);
+  --color-brand-solid: var(--brand-solid);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
@@ -126,16 +129,9 @@ body {
   background: color-mix(in oklab, var(--brand) 30%, transparent);
 }
 
-/* Reusable brand gradient text */
+/* Reusable brand accent text (solid) */
 .text-gradient {
-  background: linear-gradient(
-    120deg,
-    var(--brand) 0%,
-    var(--brand-accent) 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--brand);
 }
 
 /* Subtle grid backdrop */

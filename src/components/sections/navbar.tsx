@@ -34,7 +34,7 @@ export function Navbar() {
           href="#home"
           className="flex items-center gap-2.5 font-semibold tracking-tight"
         >
-          <span className="rounded-full bg-gradient-to-br from-brand to-brand-accent p-[2px]">
+          <span className="rounded-full bg-brand p-[2px]">
             <Image
               src={profile.avatar}
               alt={profile.name}
