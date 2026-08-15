@@ -11,7 +11,7 @@ export const profile = {
   summary:
     "Software Engineer at Polygon Technology with over 2.5 years of experience in frontend development, specializing in React.js and Next.js. Strong foundation in data structures and algorithms, with a track record of solving 2000+ problems across competitive programming platforms. Passionate about building scalable, user-focused applications and delivering clean, maintainable code.",
   socials: {
-    linkedin: "https://linkedin.com/in/md-moynol-hasan-ome",
+    linkedin: "https://www.linkedin.com/in/md-moynol-hasan-ome-2a0084243/",
     github: "https://github.com/Moynol-Hasan",
   },
 } as const;

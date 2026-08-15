@@ -1,4 +1,4 @@
-import { ArrowUpRight, ExternalLink, FolderGit2 } from "lucide-react";
+import { ExternalLink, FolderGit2 } from "lucide-react";
 import { Section } from "@/components/section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -38,10 +38,8 @@ export function Projects() {
                       <div className="grid size-11 place-items-center rounded-lg bg-brand/10 text-brand">
                         <FolderGit2 className="size-5" />
                       </div>
-                      {p.url ? (
+                      {p.url && (
                         <ExternalLink className="size-5 text-muted-foreground transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand" />
-                      ) : (
-                        <ArrowUpRight className="size-5 text-muted-foreground transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand" />
                       )}
                     </div>
 
